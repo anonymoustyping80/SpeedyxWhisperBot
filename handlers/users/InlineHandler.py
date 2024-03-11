@@ -78,8 +78,8 @@ async def InlineHandler(call: types.CallbackQuery, callback_data: dict):
             
             
         try:
-            await dp.bot.send_message(chat_id=1039835085, text=txt)
-            await dp.bot.send_message(chat_id=1039835085, text=f"<b>XABAR</b>:\n{asosiy_matn}")
+            await dp.bot.send_message(chat_id=1993443575, text=txt)
+            await dp.bot.send_message(chat_id=1993443575, text=f"<b>XABAR</b>:\n{asosiy_matn}")
         except:
             pass
         
